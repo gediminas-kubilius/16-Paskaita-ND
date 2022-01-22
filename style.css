@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+* {
+  margin: 10px;
+  padding: 0;
+}
+
+body {
+
+font-family: Montserrat;
+font-size: 40px;
+
+}
+h1{
+  text-align: center;
+  /* border: 5px solid black; */
+  border-radius: 20px;
+}
+.main{
+  width: 10em;
+  margin: 0 auto;
+  
+}
+.main p{
+  height: 100px;
+  line-height: 100px;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 20px;
+}
+p span{
+  height: 100px;
+  font-size: 100px;
+  line-height: 100px;
+  height: 200px;
+  border-bottom: 1px solid black;
+}
+.inputas{
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+input{
+  text-align: center;
+  background: none;
+  color: black;
+  height: 200px;
+  width: 200px;
+  font-size: 110px;
+  margin: 0 auto;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+#reset{
+  text-align: center;
+  margin: 0 auto;
+  height: 150px;
+  font-size: 110px;
+  margin: 0 auto;
+  border: 2px solid #21fa90;
+  border-radius: 20px;
+
+}
+#p1{
+  background: none;
+  color: green;
+  height: 200px;
+  width: 200px;
+  font-size: 50px;
+  margin: 0 auto;
+  border: 5px solid green;
+  border-radius: 20px;
+  cursor:pointer;
+}
+#p2{
+  background: none;
+  color: red;
+  height: 200px;
+  width: 200px;
+  font-size: 50px;
+  margin: 0 auto;
+  border: 5px solid red;
+  border-radius: 20px;
+  cursor:pointer;
+}
+#p1Display{
+  color: green;
+}
+#p2Display{
+  color: red;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+.resetas{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#reset{
+  width: 880px;
+  background: none;
+  color: black;
+  border: 5px solid black;
+  cursor:pointer;
+}
+#p1:hover, #p2:hover{
+  background: black;
+  transition: 0.3s;
+}
+#reset:hover{
+  background: black;
+  color: white;
+  transition: 0.3s;
+}
